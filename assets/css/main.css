@@ -3395,6 +3395,38 @@ input, select, textarea {
 			top: 0;
 		}
 
+		/* #header h1 li {
+			margin: 0;
+		}
+
+
+				#header h1 li a, #header h1 ul li span {
+					border: 0;
+					color: inherit;
+					display: inline-block;
+					height: inherit;
+					line-height: inherit;
+					outline: 0;
+				}
+
+					#header h1 li a.button, #header h1 li span.button {
+						height: 2em;
+						line-height: 2em;
+						padding: 0 1.25em;
+					}
+
+					#header h1 li a:not(.button):before, #header h1 li span:not(.button):before {
+						margin-right: 0.5em;
+					}
+
+				#header h1 li.active > a, #header h1 li.active > span {
+					color: #e44c65;
+				}
+
+				#header h1 li > ul {
+					display: none;
+				} */
+
 		#header nav {
 			position: absolute;
 			right: 1em;
@@ -3520,9 +3552,11 @@ input, select, textarea {
 			}
 
 				#banner .content .image img {
-					border-radius: 100%;
-					display: block;
-					width: 100%;
+					border-radius: 1%;
+					display: inline-block;
+					vertical-align: middle;
+					width: 140%;
+					margin: auto;
 				}
 
 	body.is-touch #banner {
@@ -4072,7 +4106,7 @@ input, select, textarea {
 		/* Spotlight */
 
 			.spotlight .image.main {
-				max-height: 50vh;
+				max-height: 100vh;
 			}
 
 			.spotlight .content {
