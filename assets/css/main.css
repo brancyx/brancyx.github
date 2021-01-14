@@ -2542,12 +2542,13 @@ input, select, textarea {
 
 		.image.right {
 			float: right;
-			margin: 0 0 1em 1.5em;
+			margin: 0 0 0em 10em; /* changed! */
 			top: 0.25em;
+			right: 5em;
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 20%;
 		}
 
 			.image.left img, .image.right img {
