@@ -2542,7 +2542,7 @@ input, select, textarea {
 
 		.image.right {
 			float: right;
-			margin: 0 0 0em 10em; /* changed! */
+			margin: 0 0 0em 15em; /* changed! */
 			top: 0.25em;
 			right: 5em;
 		}
