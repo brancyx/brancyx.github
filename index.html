@@ -170,19 +170,38 @@
 					</div>
 				</section>
 
-			<!-- Five -->
+			<!-- Contact -->
 				<section id="getintouch" class="wrapper style2 special fade">
 					<div class="container">
 						<header>
 							<h2>Let's get in touch!</h2>
 							<p>Are you interested in projects or hackathons? Drop me an email and let's chat! </p>
 						</header>
-						<form method="post" action="#" class="cta">
+						<section>
+						<form method="post" action="contactform.php" class="contact-form">
+								<div class="row gtr-uniform gtr-50">
+									<div class="col-6 col-12-xsmall">
+										<input type="text" name="name" id="name" value="" placeholder="Name" />
+									</div>
+									<div class="col-6 col-12-xsmall">
+										<input type="email" name="email" id="email" value="" placeholder="Email" />
+									</div>
+									<div class="col-12">
+											<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+										</div>
+										<div class="col-12">
+											<ul class="actions">
+												<li><input type="submit" name="submit" value="Send Message" class="primary" /></li>
+												<li><input type="reset" value="Reset" /></li>
+											</ul>
+										</div>
+						<!-- <form method="post" action="#" class="cta">
 							<div class="row gtr-uniform gtr-50">
 								<div class="col-8 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Your Email Address" /></div>
 								<div class="col-4 col-12-xsmall"><input type="submit" value="Connect" class="fit primary" /></div>
-							</div>
+							</div> -->
 						</form>
+					</section>
 					</div>
 				</section>
 
